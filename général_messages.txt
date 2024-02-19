@@ -1,0 +1,28 @@
+astrae__ - !export_messages général
+Jellobot - Le canal spécifié n'existe pas.
+astrae__ - !export_messages général
+Jellobot - Pong! 125.70 ms
+astrae__ - !ping
+astrae__ - !export_messages general
+Jellobot - Pong! 128.31 ms
+astrae__ - !ping
+astrae__ - TD�E105- B�t Joliot-Curie�LSANGS6-LSANGS6 - Anglais UE3 [LSANGS6]�L3 Informatique S6 TD01 ( S6 INFO TD01 ) [S6 INFO TD01]��
+astrae__ - !last_connection Astraé
+astrae__ - !last_connection <@1114940111612825600>
+astrae__ - !last_connexion <@1114940111612825600>
+astrae__ - !last_connection
+astrae__ - !last_connexion
+Jellobot - Pong! 114.81 ms
+astrae__ - !ping
+astrae__ - ping
+Jellobot - Hello, World !
+astrae__ - !hello
+astrae__ - ping
+astrae__ - kefkrfkr
+astrae__ - !hello
+astrae__ - hello
+astrae__ - !hello
+astrae__ - !help
+Jellobot - pong
+astrae__ - ping
+Jellobot - 

@@ -2,6 +2,8 @@ import datetime
 import discord
 from discord.ext import commands
 
+from calendrier import UvsqCalendar
+
 """
     Cree notre bot, command_prefix est utilisé pour appeller le bot sur discord par exemple avec !help,
     l'intents concerne les droits, ici il aura toutes les permissions.
@@ -31,6 +33,13 @@ async def export_messages(ctx, channel_name: str):
     with open(f'{channel_name}_messages.txt', 'w', encoding='utf-8') as f:
         async for message in channel.history(limit=None):
             f.write(f'{message.author.name} - {message.content}\n')
+
+@bot.command()
+async def beta_calendrier(ctx, args: str):
+    uvsq = UvsqCalendar()
+    print(args.split(" ")[3])
+    for matiere in uvsq.request_dict(date_debut="15/02/2024", date_fin="15/02/2024", section="M1 SECRETS gr 1"):
+        await ctx.send('/'.join(matiere.values()))
 
 if __name__ == "__main__":
     with open(r'C:\\Users\\33685\\Desktop\\token.txt', "r") as file:
